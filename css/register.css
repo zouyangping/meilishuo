@@ -1,0 +1,42 @@
+@charset "utf-8";
+body{background: url("../img/login_bg_m1.jpg") no-repeat center top}
+.wrap{padding: 40px 0 50px 0}
+.reg_head{padding-bottom: 30px;}
+.reg_head .reg_logo{display: inline-block;background: url("../img/register_logo.png") no-repeat;  width: 157px;  height: 56px;  margin-right: 25px;}
+.reg_head .reg_txt{display: inline-block;background: url("../img/register_wel_m.png") no-repeat;width: 336px;height: 50px;}
+.wrap .main {  background-color: #fff;padding-top: 40px;padding-right: 50px; padding-left: 80px;}
+.main .main_left{float: left}
+.main .main_right{float: right;width: 320px;margin-right: 30px;}
+.main_right h3.reg_title{font-size: 14px;padding-top: 10px;padding-bottom: 15px;}
+.main_right .reg_title  a{float: right;color: #f69;text-decoration: underline;font-weight: normal;  padding-right: 3px;}
+.register .reg_item{min-height: 68px;position: relative}
+.register .reg_pwd{display: none}
+.register .reg_item input{width: 280px;height: 20px;line-height: 20px;border: 1px solid #ddd; color: #999;  padding:7px 0 7px 35px;}
+.register .reg_item .reg_ipt{border-color:#f69 }
+.register .reg_item i{background: url("../img/login_icon-4.png") no-repeat;display: inline-block;width: 25px;height: 25px;position: absolute;top: 6px;left: 5px;}
+.register .reg_item i.tel_icon{background-position: -75px 0;}
+.register .reg_item i.pwd_icon{background-position: -25px 0;}
+.register .reg_item i.error_icon{top:5px;left:auto;right:-30px;background-position: -25px -25px;display: none}
+.register .reg_item i.ok_icon{background-position: -50px -25px;}
+.register .reg_item .msg_error{color: #f69;display: none;line-height: 30px;}
+.register .reg_item .pwd_safe{height: 22px}
+.register .reg_item .pwd_safe .pwd_txt{font-size: 12px;display: inline-block;margin-right: 5px;color: #999}
+.register .reg_item .pwd_safe em{display: inline-block;color: #fff;height: 14px; line-height: 14px;text-align: center;width: 42px;background: #ccc; }
+.register .reg_item .pwd_safe em.pwd_color{background: #f69}
+.register .reg_btn input{color: #fff; display: block; font-size: 16px; text-align: center; border: 0; width: 320px; height: 46px; background-color: #f69; line-height: 46px;cursor: pointer;}
+.register .reg_agrre{position:relative;padding: 12px 0 20px 20px;color: #999;border-bottom: 1px dotted #ccc;}
+.register .reg_agrre input{position: absolute;top:10px;left: 0px}
+.register .reg_agrre a{color: #f69}
+.reg_form .fast_login h3{padding-top: 20px;padding-bottom: 15px;font-size: 14px;font-weight: normal;}
+.reg_form .fast_login p{padding-bottom: 20px;display: block;height: 35px}
+.reg_form .fast_login p a{float: left;width: 100px;height: 35px;background: url("../img/register_fast_new.png") no-repeat; }
+.reg_form .fast_login p a.qq_login{background-position: 0 -120px;}
+.reg_form .fast_login p a.microblog{background-position: 0 -160px;margin-left: 10px;margin-right: 10px;}
+.reg_form .fast_login p a.weChat{background-position: 0 -200px;}
+.reg_form .more_login{padding-bottom: 25px; height: 25px;line-height: 25px;}
+.reg_form .more_login a.more_txt{ display: block; float: left; margin-right: 10px; font-size: 12px; padding-bottom: 2px;}
+.reg_form .more_login .more_img a{background: url("../img/login_icon-4.png") no-repeat;display: inline-block; width: 25px; height: 25px; float: left; margin-right: 7px;vertical-align: middle;}
+.reg_form .more_login .more_img a.txweibo{background-position: -125px -25px;}
+.reg_form .more_login .more_img a.douban{background-position: -100px -25px;}
+.reg_form .more_login .more_img a.renren{background-position: -150px -25px;}
+.reg_form .more_login .more_img a.baidu{background-position: -75px -25px;}

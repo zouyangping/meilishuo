@@ -1,57 +1,1307 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
+<html>
+<head lang="en">
     <meta charset="UTF-8">
-    <title>Meilishuo by zouyangping</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Meilishuo</h1>
-      <h2 class="project-tagline">pc 端项目--美丽说</h2>
-      <a href="https://github.com/zouyangping/meilishuo" class="btn">View on GitHub</a>
-      <a href="https://github.com/zouyangping/meilishuo/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/zouyangping/meilishuo/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <title>美丽说首页</title>
+    <link type="text/css" rel="stylesheet" href="css/common.css"/>
+    <link type="text/css" rel="stylesheet" href="css/lib.css"/>
+</head>
+<body>
+<!--顶部开始-->
+<div class="header">
+    <div class="tip_box">
+        <div class="c120">
+            <ul>
+                <li>
+                    <a href="javascript:;"><em class="weixin"></em>微信登录</a>
+                </li>
+                <li><a href="javascript:;"><em class="qq"></em>QQ登录</a></li>
+                <li><a href="javascript:;">登录</a></li>
+                <li><a href="#">注册</a></li>
+                <li><a href="javascript:;" target="_blank"><em class="cart"></em>我的购物车 <span
+                        class="cart-num">0</span></a></li>
+                <li><a href="javascript:;" target="_blank"><em class="order"></em>我的订单</a>
+                </li>
+                <li><a href="javascript:;" target="_blank"><em class="imember"></em>美丽说会员</a>
+                </li>
+                <li class="drop"><a href="http://www.meilishuo.com/client/?frm=topbar" target="_blank"> <em
+                        class="mob"></em>下载App<em class="arrow"></em> </a>
+                    <ul class="down" style="display: none;">
+                        <li><img
+                                src="http://d01.res.meilishuo.net/pic/_o/80/81/44b8493edbbf431a52895c99376f_120_120.cg.jpg">
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+                            <div class="client">美丽说客户端</div>
+                            <div>发现流行，只做正确流行款</div>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="javascript:;" target="_blank">帮助中心</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="search">
+        <div class="c120 clear_f">
+            <div class="logoLeft">
+                <a href="javascript:;"><img src="img/logo.png"/></a>
+                <a href="javascript:;"><img src="img/logo_font.png"/></a>
+            </div>
+            <div class="searchR">
+                <div class="search_tab">
+                    <span class="active">宝贝</span><span>店铺</span>
+                </div>
+                <div class="search_box">
+                    <input class="search_txt" type="text"/>
+                    <span class="search_btn"></span>
+                </div>
+                <p class="search_word">
+                    <a class="pink" href="javascript:;">套装</a>
+                    <a href="javascript:;">短袖</a>
+                    <a href="javascript:;">阔腿裤</a>
+                    <a class="pink" href="javascript:;">连衣裙</a>
+                    <a href="javascript:;">双肩包</a>
+                    <a href="javascript:;">睡衣</a>
+                    <a class="pink" href="javascript:;">凉鞋</a>
+                    <a href="javascript:;">小白鞋</a>
+                    <a href="javascript:;">衬衫</a>
+                    <a href="javascript:;">帽子</a>
+                </p>
+            </div>
+        </div>
+    </div>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+</div>
+<!--顶部结束-->
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
+<!--导航开始-->
+<div class="nav_box" id="nav_box">
+    <div class="nav c120">
+        <ul class="nav_inner">
+            <li><a class="active" href="javascript:;">首页</a></li>
+            <li><a href="javascript:;">最热</a></li>
+            <li><a href="javascript:;">上衣</a></li>
+            <li><a href="javascript:;">裙子</a></li>
+            <li><a href="javascript:;">裤子</a></li>
+            <li><a href="javascript:;">鞋子</a></li>
+            <li><a href="javascript:;">包包</a></li>
+            <li><a href="javascript:;">配饰</a></li>
+            <li class="drop">
+                <a href="javascript:;">更多<em></em></a>
+                <ul class="down">
+                    <li>
+                        <a href="javascript:;">内衣</a>
+                    </li>
+                    <li><a href="javascript:;">美妆</a></li>
+                    <li>
+                        <a href="javascript:;">男装</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">童装</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">家居</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">小家电</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">食品</a>
+                    </li>
+                </ul>
+            </li>
+            <li><span class="line"></span></li>
+            <li><a class="pink" href="javascript:;">Hi范儿</a></li>
+            <li><a class="pink" href="javascript:;">韩国</a></li>
+            <li><a class="pink" href="javascript:;">馆团购</a></li>
+        </ul>
+    </div>
+</div>
+<!--导航结束-->
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
+<!--分类和轮播图开始-->
+<div class="c120">
+    <div class="top_wrap">
+        <div class="classification">
+            <ul class="outerList" id="outerList">
+                <li class="list active">
+                    <div class="list_box">
+                        <h3 class="nav_tle"><a href="#">每日精选</a></h3>
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
+                        <p class="listP">
+                            <a href="#">春季新品</a>
+                            <a href="#">甜美韩系</a>
+                            <a href="#">毛呢外套</a>
+                            <a href="#">大衣</a>
+                            <a href="#">T恤</a>
+                            <a href="#">时尚套装</a>
+                            <a href="#">连衣裙</a>
+                            <a href="#">小脚裤</a>
+                            <a href="#">薄款外套</a>
+                            <a href="#">高跟鞋</a>
+                        </p>
+                        <samp class="corner">&gt;</samp>
+                    </div>
+                    <ul class="innerList">
+                        <li>
+                            <h4><a href="#">每日精选</a></h4>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+                            <p>
+                                <a href="#">春季新品</a>
+                                <a href="#">甜美韩系</a>
+                                <a href="#">毛呢外套</a>
+                                <a href="#">大衣</a>
+                                <a href="#">T恤</a>
+                                <a href="#">时尚套装</a>
+                                <a href="#">薄毛衣</a>
+                                <a href="#">打底裙</a>
+                                <a href="#">连衣裙</a>
+                                <a href="#">小脚裤</a>
+                                <a href="#">短靴</a>
+                                <a href="#">薄款外套</a>
+                                <a href="#">高跟鞋</a>
+                                <a href="#">调整型内衣</a>
+                                <a href="#">斜挎包</a>
+                                <a href="#">斜挎包</a>
+                                <a href="#">手机壳</a>
+                                <a href="#">耳饰</a>
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="list">
+                    <div class="list_box">
+                        <h3 class="nav_tle"><a href="#">每日精选</a></h3>
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+                        <p class="listP">
+                            <a href="#">春季新品</a>
+                            <a href="#">甜美韩系</a>
+                            <a href="#">毛呢外套</a>
+                            <a href="#">大衣</a>
+                            <a href="#">T恤</a>
+                            <a href="#">时尚套装</a>
+                            <a href="#">连衣裙</a>
+                            <a href="#">小脚裤</a>
+                            <a href="#">薄款外套</a>
+                            <a href="#">高跟鞋</a>
+                        </p>
+                        <samp class="corner">&gt;</samp>
+                    </div>
+                    <ul class="innerList">
+                        <li>
+                            <h4><a href="#">每日精选</a></h4>
 
-<p>You can @mention a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+                            <p>
+                                <a href="#">春季新品</a>
+                                <a href="#">甜美韩系</a>
+                                <a href="#">毛呢外套</a>
+                                <a href="#">大衣</a>
+                                <a href="#">T恤</a>
+                                <a href="#">时尚套装</a>
+                                <a href="#">薄毛衣</a>
+                                <a href="#">打底裙</a>
+                                <a href="#">连衣裙</a>
+                                <a href="#">小脚裤</a>
+                                <a href="#">短靴</a>
+                                <a href="#">薄款外套</a>
+                                <a href="#">高跟鞋</a>
+                                <a href="#">调整型内衣</a>
+                                <a href="#">斜挎包</a>
+                                <a href="#">斜挎包</a>
+                                <a href="#">手机壳</a>
+                                <a href="#">耳饰</a>
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="list">
+                    <div class="list_box">
+                        <h3 class="nav_tle"><a href="#">每日精选</a></h3>
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
+                        <p class="listP">
+                            <a href="#">春季新品</a>
+                            <a href="#">甜美韩系</a>
+                            <a href="#">毛呢外套</a>
+                            <a href="#">大衣</a>
+                            <a href="#">T恤</a>
+                            <a href="#">时尚套装</a>
+                            <a href="#">连衣裙</a>
+                            <a href="#">小脚裤</a>
+                            <a href="#">薄款外套</a>
+                            <a href="#">高跟鞋</a>
+                        </p>
+                        <samp class="corner">&gt;</samp>
+                    </div>
+                    <ul class="innerList">
+                        <li>
+                            <h4><a href="#">每日精选</a></h4>
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+                            <p>
+                                <a href="#">春季新品</a>
+                                <a href="#">甜美韩系</a>
+                                <a href="#">毛呢外套</a>
+                                <a href="#">大衣</a>
+                                <a href="#">T恤</a>
+                                <a href="#">时尚套装</a>
+                                <a href="#">薄毛衣</a>
+                                <a href="#">打底裙</a>
+                                <a href="#">连衣裙</a>
+                                <a href="#">小脚裤</a>
+                                <a href="#">短靴</a>
+                                <a href="#">薄款外套</a>
+                                <a href="#">高跟鞋</a>
+                                <a href="#">调整型内衣</a>
+                                <a href="#">斜挎包</a>
+                                <a href="#">斜挎包</a>
+                                <a href="#">手机壳</a>
+                                <a href="#">耳饰</a>
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="list">
+                    <div class="list_box">
+                        <h3 class="nav_tle"><a href="#">每日精选</a></h3>
+                        <p class="listP">
+                            <a href="#">春季新品</a>
+                            <a href="#">甜美韩系</a>
+                            <a href="#">毛呢外套</a>
+                            <a href="#">大衣</a>
+                            <a href="#">T恤</a>
+                            <a href="#">时尚套装</a>
+                            <a href="#">连衣裙</a>
+                            <a href="#">小脚裤</a>
+                            <a href="#">薄款外套</a>
+                            <a href="#">高跟鞋</a>
+                        </p>
+                        <samp class="corner">&gt;</samp>
+                    </div>
+                    <ul class="innerList">
+                        <li>
+                            <h4><a href="#">每日精选</a></h4>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/zouyangping/meilishuo">Meilishuo</a> is maintained by <a href="https://github.com/zouyangping">zouyangping</a>.</span>
+                            <p>
+                                <a href="#">春季新品</a>
+                                <a href="#">甜美韩系</a>
+                                <a href="#">毛呢外套</a>
+                                <a href="#">大衣</a>
+                                <a href="#">T恤</a>
+                                <a href="#">时尚套装</a>
+                                <a href="#">薄毛衣</a>
+                                <a href="#">打底裙</a>
+                                <a href="#">连衣裙</a>
+                                <a href="#">小脚裤</a>
+                                <a href="#">短靴</a>
+                                <a href="#">薄款外套</a>
+                                <a href="#">高跟鞋</a>
+                                <a href="#">调整型内衣</a>
+                                <a href="#">斜挎包</a>
+                                <a href="#">斜挎包</a>
+                                <a href="#">手机壳</a>
+                                <a href="#">耳饰</a>
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="list">
+                    <div class="list_box">
+                        <h3 class="nav_tle"><a href="#">每日精选</a></h3>
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+                        <p class="listP">
+                            <a href="#">春季新品</a>
+                            <a href="#">甜美韩系</a>
+                            <a href="#">毛呢外套</a>
+                            <a href="#">大衣</a>
+                            <a href="#">T恤</a>
+                            <a href="#">时尚套装</a>
+                            <a href="#">连衣裙</a>
+                            <a href="#">小脚裤</a>
+                            <a href="#">薄款外套</a>
+                            <a href="#">高跟鞋</a>
+                        </p>
+                        <samp class="corner">&gt;</samp>
+                    </div>
+                    <ul class="innerList">
+                        <li>
+                            <h4><a href="#">每日精选</a></h4>
 
-    </section>
+                            <p>
+                                <a href="#">春季新品</a>
+                                <a href="#">甜美韩系</a>
+                                <a href="#">毛呢外套</a>
+                                <a href="#">大衣</a>
+                                <a href="#">T恤</a>
+                                <a href="#">时尚套装</a>
+                                <a href="#">薄毛衣</a>
+                                <a href="#">打底裙</a>
+                                <a href="#">连衣裙</a>
+                                <a href="#">小脚裤</a>
+                                <a href="#">短靴</a>
+                                <a href="#">薄款外套</a>
+                                <a href="#">高跟鞋</a>
+                                <a href="#">调整型内衣</a>
+                                <a href="#">斜挎包</a>
+                                <a href="#">斜挎包</a>
+                                <a href="#">手机壳</a>
+                                <a href="#">耳饰</a>
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="banner_box">
+            <div class="banner" id="banner">
+                <div class="bannerInner">
+                    <div><img src="img/banner1.jpg"></div>
+                    <div><img src="img/banner2.jpg"></div>
+                    <div><img src="img/banner3.jpg"></div>
+                </div>
+                <ul class="bannerTip">
+                    <li class="bg"></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <a href="javascript:;" class="bannerLeft"></a>
+                <a href="javascript:;" class="bannerRight"></a>
+            </div>
+            <div class="bnr_box">
+                <p>
+                    <a href="#"><img src="img/higer1.png"></a>
+                    <a href="#"><img src="img/higer2.jpg"></a>
+                    <a href="#"><img src="img/higer3.jpg"></a>
+                    <a href="#"><img src="img/higer4.gif"></a>
+                    <a href="#"><img src="img/higer5.jpg"></a>
+                </p>
+            </div>
+        </div>
+    </div>
 
-  
-  </body>
+</div>
+
+<!--分类和轮播图结束-->
+
+
+<!--主体开始-->
+<div class="c120">
+    <!--每日新款发售开始-->
+    <div class="module debut">
+        <div class="title">
+            <h2>
+                每日新款发售 <span>潮流速递 穿搭指南</span>
+            </h2>
+
+            <div class="operate">
+                <a href="#">热门新款</a>
+            </div>
+        </div>
+
+        <div class="cont">
+            <ul class="item">
+                <li>
+                    <a class="firstImg" href="#"><img src="img/cj1.jpg"/></a>
+
+                    <p>
+                        <a class="firstImg" href="#"><img src="img/cj1_1.png"/></a>
+                        <a class="firstImg" href="#"><img src="img/cj1_2.png"/></a>
+                        <a class="firstImg" href="#"><img src="img/cj1_3.png"/></a>
+                    </p>
+                </li>
+
+                <li>
+                    <a class="firstImg" href="#"><img src="img/cj1.jpg"/></a>
+
+                    <p>
+                        <a class="firstImg" href="#"><img src="img/cj2_1.png"/></a>
+                        <a class="firstImg" href="#"><img src="img/cj2_2.png"/></a>
+                        <a class="firstImg" href="#"><img src="img/cj2_3.png"/></a>
+                    </p>
+                </li>
+
+                <li>
+                    <a class="firstImg" href="#"><img src="img/cj1.jpg"/></a>
+
+                    <p>
+                        <a class="firstImg" href="#"><img src="img/cj3_1.png"/></a>
+                        <a class="firstImg" href="#"><img src="img/cj3_2.png"/></a>
+                        <a class="firstImg" href="#"><img src="img/cj3_3.png"/></a>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--正在流行-->
+    <div class="module fasion">
+        <div class="title">
+            <h2>
+                正在流行 <span>流行元素 权威榜单</span>
+            </h2>
+
+            <div class="operate">&nbsp;</div>
+        </div>
+        <div class="cont">
+            <a href="#"><img src="img/lx1.jpg"></a>
+            <a href="#"><img src="img/lx2.jpg"></a>
+            <a href="#"><img src="img/lx3.jpg"></a>
+            <a href="#"><img src="img/lx4.jpg"></a>
+            <a href="#"><img src="img/lx5.jpg"></a>
+            <a href="#"><img src="img/lx6.jpg"></a>
+        </div>
+    </div>
+
+    <!--新品精选-->
+
+    <div class="module fasion_new">
+        <div class="title">
+            <h2>
+                新品精选 <span>尖货来袭 要你好看</span>
+            </h2>
+
+            <div class="operate"><a href="#">更多新品</a></div>
+        </div>
+
+        <div class="cont">
+            <ul class="fasin_item">
+                <li>
+                    <a class="pic">
+                        <img src="img/fs1.jpg">
+                    </a>
+
+                    <div class="info">
+                        <p>
+                            <span class="price">￥89.00</span>
+                            <span class="like">4997</span>
+                        </p>
+                        <a class="tit" href="#">百搭修身甜美纯棉无袖T恤</a>
+                    </div>
+                </li>
+                <li>
+                    <a class="pic">
+                        <img src="img/fs1.jpg">
+                    </a>
+
+                    <div class="info">
+                        <p>
+                            <span class="price">￥89.00</span>
+                            <span class="like">4997</span>
+                        </p>
+                        <a class="tit" href="#">百搭修身甜美纯棉无袖T恤</a>
+                    </div>
+                </li>
+                <li>
+                    <a class="pic">
+                        <img src="img/fs1.jpg">
+                    </a>
+
+                    <div class="info">
+                        <p>
+                            <span class="price">￥89.00</span>
+                            <span class="like">4997</span>
+                        </p>
+                        <a class="tit" href="#">百搭修身甜美纯棉无袖T恤</a>
+                    </div>
+                </li>
+                <li>
+                    <a class="pic">
+                        <img src="img/fs1.jpg">
+                    </a>
+
+                    <div class="info">
+                        <p>
+                            <span class="price">￥89.00</span>
+                            <span class="like">4997</span>
+                        </p>
+                        <a class="tit" href="#">百搭修身甜美纯棉无袖T恤</a>
+                    </div>
+                </li>
+                <li>
+                    <a class="pic">
+                        <img src="img/fs1.jpg">
+                    </a>
+
+                    <div class="info">
+                        <p>
+                            <span class="price">￥89.00</span>
+                            <span class="like">4997</span>
+                        </p>
+                        <a class="tit" href="#">百搭修身甜美纯棉无袖T恤</a>
+                    </div>
+                </li>
+                <li>
+                    <a class="pic">
+                        <img src="img/fs1.jpg">
+                    </a>
+
+                    <div class="info">
+                        <p>
+                            <span class="price">￥89.00</span>
+                            <span class="like">4997</span>
+                        </p>
+                        <a class="tit" href="#">百搭修身甜美纯棉无袖T恤</a>
+                    </div>
+                </li>
+                <li>
+                    <a class="pic">
+                        <img src="img/fs1.jpg">
+                    </a>
+
+                    <div class="info">
+                        <p>
+                            <span class="price">￥89.00</span>
+                            <span class="like">4997</span>
+                        </p>
+                        <a class="tit" href="#">百搭修身甜美纯棉无袖T恤</a>
+                    </div>
+                </li>
+                <li>
+                    <a class="pic">
+                        <img src="img/fs1.jpg">
+                    </a>
+
+                    <div class="info">
+                        <p>
+                            <span class="price">￥89.00</span>
+                            <span class="like">4997</span>
+                        </p>
+                        <a class="tit" href="#">百搭修身甜美纯棉无袖T恤</a>
+                    </div>
+                </li>
+                <li>
+                    <a class="pic">
+                        <img src="img/fs1.jpg">
+                    </a>
+
+                    <div class="info">
+                        <p>
+                            <span class="price">￥89.00</span>
+                            <span class="like">4997</span>
+                        </p>
+                        <a class="tit" href="#">百搭修身甜美纯棉无袖T恤</a>
+                    </div>
+                </li>
+                <li>
+                    <a class="pic">
+                        <img src="img/fs1.jpg">
+                    </a>
+
+                    <div class="info">
+                        <p>
+                            <span class="price">￥89.00</span>
+                            <span class="like">4997</span>
+                        </p>
+                        <a class="tit" href="#">百搭修身甜美纯棉无袖T恤</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!--Desire 明星同款-->
+    <div class="module desire">
+        <div class="title">
+            <h2>
+                明星同款 <span>明星热捧最IN单品</span>
+            </h2>
+
+            <div class="operate"><a href="#">更多明星同款</a></div>
+        </div>
+
+
+        <div class="cont">
+            <ul class="desir_item">
+                <li>
+                    <a href="#" class="pic">
+                        <img src="img/ds1.png"/>
+                    </a>
+
+                    <div class="info">
+                        <p>
+                            <span class="price">DESIRE价:<i>￥59.00</i></span>
+                            <span class="ori-price">原款价:￥480.00</span>
+                        </p>
+                        <a class="tit" href="#">百搭修身甜美纯棉无袖T恤</a>
+
+                        <p class="subtit">【百变造型，不变白T！】白色，是最经典、最不容小觑的色彩，不可多得的清凉、不容小觑的时髦，分分钟都给你！</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="pic">
+                        <img src="img/ds1.png"/>
+                    </a>
+
+                    <div class="info">
+                        <p>
+                            <span class="price">DESIRE价:<i>￥59.00</i></span>
+                            <span class="ori-price">原款价:￥480.00</span>
+                        </p>
+                        <a class="tit" href="#">百搭修身甜美纯棉无袖T恤</a>
+
+                        <p class="subtit">【百变造型，不变白T！】白色，是最经典、最不容小觑的色彩，不可多得的清凉、不容小觑的时髦，分分钟都给你！</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="pic">
+                        <img src="img/ds1.png"/>
+                    </a>
+
+                    <div class="info">
+                        <p>
+                            <span class="price">DESIRE价:<i>￥59.00</i></span>
+                            <span class="ori-price">原款价:￥480.00</span>
+                        </p>
+                        <a class="tit" href="#">百搭修身甜美纯棉无袖T恤</a>
+
+                        <p class="subtit">【百变造型，不变白T！】白色，是最经典、最不容小觑的色彩，不可多得的清凉、不容小觑的时髦，分分钟都给你！</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--Hi范儿	与潮流不期而遇-->
+    <div class="module hifan">
+        <div class="title">
+            <h2>
+                Hi范儿 <span>与潮流不期而遇</span>
+            </h2>
+
+            <div class="operate"><a href="#">查看更多</a></div>
+        </div>
+
+        <div class="cont">
+            <div class="hifan_item" id="tabFir">
+                <ul class="tab">
+                    <li class="select"> 欧美</li>
+                    <li>原创设计</li>
+                    <li>日韩</li>
+                    <li>甜美</li>
+                </ul>
+                <div class="tab_item select">
+                    <p><a href="#"><img src="img/hg1.jpg"/></a></p>
+
+                    <p><a href="#"><img src="img/hg1.jpg"/></a></p>
+
+                    <p><a href="#"><img src="img/og1.jpg"/></a></p>
+                </div>
+                <div class="tab_item">
+                    <p><a href="#"><img src="img/og2.jpg"/></a></p>
+
+                    <p><a href="#"><img src="img/hg1.jpg"/></a></p>
+
+                    <p><a href="#"><img src="img/og1.jpg"/></a></p>
+                </div>
+                <div class="tab_item">
+                    <p><a href="#"><img src="img/hg1.jpg"/></a></p>
+
+                    <p><a href="#"><img src="img/og3.jpg"/></a></p>
+
+                    <p><a href="#"><img src="img/og1.jpg"/></a></p>
+                </div>
+                <div class="tab_item">
+                    <p><a href="#"><img src="img/hg3.jpg"/></a></p>
+
+                    <p><a href="#"><img src="img/og2.jpg"/></a></p>
+
+                    <p><a href="#"><img src="img/og1.jpg"/></a></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--好店推荐-->
+    <div class="module  recommend_shop">
+        <div class="title">
+            <h2>
+                好店推荐<span>店铺精选 品质保证</span>
+            </h2>
+
+            <div class="operate"><a href="#">更多好店</a></div>
+        </div>
+        <div class="cont">
+            <div class="recommend_item">
+                <ul class="tab">
+                    <li class="select"> 魅力女装</li>
+                    <li>时尚包包</li>
+                    <li>潮流美鞋</li>
+                    <li>必备小物</li>
+                    <li>精品男装</li>
+                </ul>
+                <div class="tab_item select">
+                    <p>
+                        <a href="#"><img src="img/rs1.jpg"/></a>
+                        <span class="go">
+                            <a href="#" class="secc_gz"><i>已关注</i><i class="qus_gz">取消关注</i></a>
+                            <a href="#" class="mask">去逛逛</a>
+                        </span>
+                        <span class="desc">
+                            <a href="#">百里茜</a>
+                            <strong>I am who I am</strong>
+                            <em>销量 <i>9987</i> 评分 <i class="last">4.7</i></em>
+                        </span>
+
+                    </p>
+
+                    <p>
+                        <a href="#"><img src="img/rs1.jpg"/></a>
+                        <span class="go">
+                            <a href="#" class="secc_gz"><i>已关注</i><i class="qus_gz">取消关注</i></a>
+                            <a href="#" class="mask">去逛逛</a>
+                        </span>
+                        <span class="desc">
+                            <a href="#">百里茜</a>
+                            <strong>I am who I am</strong>
+                            <em>销量 <i>9987</i> 评分 <i class="last">4.7</i></em>
+                        </span>
+
+                    </p>
+
+                    <p>
+                        <a href="#"><img src="img/rs1.jpg"/></a>
+                        <span class="go">
+                            <a href="#" class="secc_gz"><i>已关注</i><i class="qus_gz">取消关注</i></a>
+                            <a href="#" class="mask">去逛逛</a>
+                        </span>
+                        <span class="desc">
+                            <a href="#">百里茜</a>
+                            <strong>I am who I am</strong>
+                            <em>销量 <i>9987</i> 评分 <i class="last">4.7</i></em>
+                        </span>
+
+                    </p>
+                </div>
+
+
+            <div class="tab_item">
+                <p>
+                    <a href="#"><img src="img/rs2.jpg"/></a>
+                        <span class="go">
+                            <a href="#" class="secc_gz"><i>已关注</i><i class="qus_gz">取消关注</i></a>
+                            <a href="#" class="mask">去逛逛</a>
+                        </span>
+                        <span class="desc">
+                            <a href="#">百里茜</a>
+                            <strong>I am who I am</strong>
+                            <em>销量 <i>9987</i> 评分 <i class="last">4.7</i></em>
+                        </span>
+
+                </p>
+
+                <p>
+                    <a href="#"><img src="img/rs2.jpg"/></a>
+                        <span class="go">
+                           <a href="#" class="secc_gz"><i>已关注</i><i class="qus_gz">取消关注</i></a>
+                            <a href="#" class="mask">去逛逛</a>
+                        </span>
+                        <span class="desc">
+                            <a href="#">百里茜</a>
+                            <strong>I am who I am</strong>
+                            <em>销量 <i>9987</i> 评分 <i class="last">4.7</i></em>
+                        </span>
+
+                </p>
+
+                <p>
+                    <a href="#"><img src="img/rs2.jpg"/></a>
+                        <span class="go">
+                            <a href="#" class="secc_gz"><i>已关注</i><i class="qus_gz">取消关注</i></a>
+                            <a href="#" class="mask">去逛逛</a>
+                        </span>
+                        <span class="desc">
+                            <a href="#">百里茜</a>
+                            <strong>I am who I am</strong>
+                            <em>销量 <i>9987</i> 评分 <i class="last">4.7</i></em>
+                        </span>
+
+                </p>
+            </div>
+
+            <div class="tab_item">
+                <p>
+                    <a href="#"><img src="img/rs1.jpg"/></a>
+                        <span class="go">
+                            <a href="#" class="secc_gz"><i>已关注</i><i class="qus_gz">取消关注</i></a>
+                            <a href="#" class="mask">去逛逛</a>
+                        </span>
+                        <span class="desc">
+                            <a href="#">百里茜</a>
+                            <strong>I am who I am</strong>
+                            <em>销量 <i>9987</i> 评分 <i class="last">4.7</i></em>
+                        </span>
+
+                </p>
+
+                <p>
+                    <a href="#"><img src="img/rs1.jpg"/></a>
+                        <span class="go">
+                           <a href="#" class="secc_gz"><i>已关注</i><i class="qus_gz">取消关注</i></a>
+                            <a href="#" class="mask">去逛逛</a>
+                        </span>
+                        <span class="desc">
+                            <a href="#">百里茜</a>
+                            <strong>I am who I am</strong>
+                            <em>销量 <i>9987</i> 评分 <i class="last">4.7</i></em>
+                        </span>
+
+                </p>
+
+                <p>
+                    <a href="#"><img src="img/rs1.jpg"/></a>
+                        <span class="go">
+                            <a href="#" class="secc_gz"><i>已关注</i><i class="qus_gz">取消关注</i></a>
+                            <a href="#" class="mask">去逛逛</a>
+                        </span>
+                        <span class="desc">
+                            <a href="#">百里茜</a>
+                            <strong>I am who I am</strong>
+                            <em>销量 <i>9987</i> 评分 <i class="last">4.7</i></em>
+                        </span>
+
+                </p>
+            </div>
+
+
+
+
+            <div class="tab_item">
+                <p>
+                    <a href="#"><img src="img/rs2.jpg"/></a>
+                        <span class="go">
+                            <a href="#" class="secc_gz"><i>已关注</i><i class="qus_gz">取消关注</i></a>
+                            <a href="#" class="mask">去逛逛</a>
+                        </span>
+                        <span class="desc">
+                            <a href="#">百里茜</a>
+                            <strong>I am who I am</strong>
+                            <em>销量 <i>9987</i> 评分 <i class="last">4.7</i></em>
+                        </span>
+
+                </p>
+
+                <p>
+                    <a href="#"><img src="img/rs2.jpg"/></a>
+                        <span class="go">
+                            <a href="#" class="secc_gz"><i>已关注</i><i class="qus_gz">取消关注</i></a>
+                            <a href="#" class="mask">去逛逛</a>
+                        </span>
+                        <span class="desc">
+                            <a href="#">百里茜</a>
+                            <strong>I am who I am</strong>
+                            <em>销量 <i>9987</i> 评分 <i class="last">4.7</i></em>
+                        </span>
+
+                </p>
+
+                <p>
+                    <a href="#"><img src="img/rs2.jpg"/></a>
+                        <span class="go">
+                           <a href="#" class="secc_gz"><i>已关注</i><i class="qus_gz">取消关注</i></a>
+                            <a href="#" class="mask">去逛逛</a>
+                        </span>
+                        <span class="desc">
+                            <a href="#">百里茜</a>
+                            <strong>I am who I am</strong>
+                            <em>销量 <i>9987</i> 评分 <i class="last">4.7</i></em>
+                        </span>
+
+                </p>
+            </div>
+
+            <div class="tab_item">
+                <p>
+                    <a href="#"><img src="img/rs1.jpg"/></a>
+                        <span class="go">
+                            <a href="#" class="secc_gz"><i>已关注</i><i class="qus_gz">取消关注</i></a>
+                            <a href="#" class="mask">去逛逛</a>
+                        </span>
+                        <span class="desc">
+                            <a href="#">百里茜</a>
+                            <strong>I am who I am</strong>
+                            <em>销量 <i>9987</i> 评分 <i class="last">4.7</i></em>
+                        </span>
+
+                </p>
+
+                <p>
+                    <a href="#"><img src="img/rs1.jpg"/></a>
+                        <span class="go">
+                           <a href="#" class="secc_gz"><i>已关注</i><i class="qus_gz">取消关注</i></a>
+                            <a href="#" class="mask">去逛逛</a>
+                        </span>
+                        <span class="desc">
+                            <a href="#">百里茜</a>
+                            <strong>I am who I am</strong>
+                            <em>销量 <i>9987</i> 评分 <i class="last">4.7</i></em>
+                        </span>
+
+                </p>
+
+                <p>
+                    <a href="#"><img src="img/rs1.jpg"/></a>
+                        <span class="go">
+                            <a href="#" class="secc_gz"><i>已关注</i><i class="qus_gz">取消关注</i></a>
+                            <a href="#" class="mask">去逛逛</a>
+                        </span>
+                        <span class="desc">
+                            <a href="#">百里茜</a>
+                            <strong>I am who I am</strong>
+                            <em>销量 <i>9987</i> 评分 <i class="last">4.7</i></em>
+                        </span>
+
+                </p>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--新店驾到-->
+
+    <div class="module fasion_new">
+        <div class="title">
+            <h2>
+                新店驾到 <span>每天带你去尝鲜</span>
+            </h2>
+
+            <div class="operate"> &nbsp;</div>
+        </div>
+
+        <div class="cont">
+            <ul class="fasin_item">
+                <li>
+                    <a href="#" class="pic">
+                        <img src="img/c1.jpg"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic">
+                        <img src="img/c2.jpg"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic">
+                        <img src="img/c3.jpg"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic">
+                        <img src="img/c4.jpg"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic">
+                        <img src="img/c5.jpg"/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!--为你精选-->
+    <div class="module fasion_new guess_like">
+        <div class="title">
+            <h2>
+                为你精选 <span>为您精挑细选的宝贝</span>
+            </h2>
+
+            <div class="operate"><a href="#">换一批</a></div>
+        </div>
+
+        <div class="cont">
+            <ul class="fasin_item">
+                <li>
+                    <a class="pic">
+                        <img src="img/gk1.jpg">
+                    </a>
+
+                    <div class="info">
+                        <p>
+                            <span class="price">￥89.00</span>
+                            <span class="like">4997</span>
+                        </p>
+                        <a class="tit" href="#">百搭修身甜美纯棉无袖T恤</a>
+                    </div>
+                </li>
+                <li>
+                    <a class="pic">
+                        <img src="img/gk2.jpg">
+                    </a>
+
+                    <div class="info">
+                        <p>
+                            <span class="price">￥89.00</span>
+                            <span class="like">4997</span>
+                        </p>
+                        <a class="tit" href="#">百搭修身甜美纯棉无袖T恤</a>
+                    </div>
+                </li>
+                <li>
+                    <a class="pic">
+                        <img src="img/gk1.jpg">
+                    </a>
+
+                    <div class="info">
+                        <p>
+                            <span class="price">￥89.00</span>
+                            <span class="like">4997</span>
+                        </p>
+                        <a class="tit" href="#">百搭修身甜美纯棉无袖T恤</a>
+                    </div>
+                </li>
+                <li>
+                    <a class="pic">
+                        <img src="img/gk2.jpg">
+                    </a>
+
+                    <div class="info">
+                        <p>
+                            <span class="price">￥89.00</span>
+                            <span class="like">4997</span>
+                        </p>
+                        <a class="tit" href="#">百搭修身甜美纯棉无袖T恤</a>
+                    </div>
+                </li>
+                <li>
+                    <a class="pic">
+                        <img src="img/gk1.jpg">
+                    </a>
+
+                    <div class="info">
+                        <p>
+                            <span class="price">￥89.00</span>
+                            <span class="like">4997</span>
+                        </p>
+                        <a class="tit" href="#">百搭修身甜美纯棉无袖T恤</a>
+                    </div>
+                </li>
+                <li>
+                    <a class="pic">
+                        <img src="img/gk2.jpg">
+                    </a>
+
+                    <div class="info">
+                        <p>
+                            <span class="price">￥89.00</span>
+                            <span class="like">4997</span>
+                        </p>
+                        <a class="tit" href="#">百搭修身甜美纯棉无袖T恤</a>
+                    </div>
+                </li>
+                <li>
+                    <a class="pic">
+                        <img src="img/gk1.jpg">
+                    </a>
+
+                    <div class="info">
+                        <p>
+                            <span class="price">￥89.00</span>
+                            <span class="like">4997</span>
+                        </p>
+                        <a class="tit" href="#">百搭修身甜美纯棉无袖T恤</a>
+                    </div>
+                </li>
+                <li>
+                    <a class="pic">
+                        <img src="img/gk2.jpg">
+                    </a>
+
+                    <div class="info">
+                        <p>
+                            <span class="price">￥89.00</span>
+                            <span class="like">4997</span>
+                        </p>
+                        <a class="tit" href="#">百搭修身甜美纯棉无袖T恤</a>
+                    </div>
+                </li>
+                <li>
+                    <a class="pic">
+                        <img src="img/gk1.jpg">
+                    </a>
+
+                    <div class="info">
+                        <p>
+                            <span class="price">￥89.00</span>
+                            <span class="like">4997</span>
+                        </p>
+                        <a class="tit" href="#">百搭修身甜美纯棉无袖T恤</a>
+                    </div>
+                </li>
+                <li>
+                    <a class="pic">
+                        <img src="img/gk2.jpg">
+                    </a>
+
+                    <div class="info">
+                        <p>
+                            <span class="price">￥89.00</span>
+                            <span class="like">4997</span>
+                        </p>
+                        <a class="tit" href="#">百搭修身甜美纯棉无袖T恤</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+
+<!--公共的底部开始-->
+<div class="footer_box">
+    <div class="footer c120">
+        <div class="footer_top">
+            <span class="tel_ico"></span>
+            <dl class="custom">
+                <dt>4000-800-577</dt>
+                <dd>美丽说客服热线</dd>
+                <dd>周一至周日：09:00-22:00</dd>
+            </dl>
+            <dl>
+                <dt>买家帮助</dt>
+                <dd><a href="#">新手指南</a></dd>
+                <dd><a href="#">服务保障</a></dd>
+                <dd><a href="#">帮助中心</a></dd>
+            </dl>
+            <dl>
+                <dt>商家帮助</dt>
+                <dd><a href="#">商家入驻</a></dd>
+                <dd><a href="#">商家推广</a></dd>
+                <dd><a href="#">帮助中心</a></dd>
+            </dl>
+            <dl>
+                <dt>关于我们</dt>
+                <dd><a href="#">关于美丽说</a></dd>
+                <dd><a href="#">联系我们</a></dd>
+                <dd><a href="#">加入美丽说</a></dd>
+            </dl>
+            <dl>
+                <dt>关注我们</dt>
+                <dd><a href="#"><i class="i-sina"></i>新浪微博</a></dd>
+                <dd><a href="#"><i class="i-qzone"></i>QQ空间</a></dd>
+                <dd><a href="#"><i class="i-tencent"></i>腾讯微博</a></dd>
+            </dl>
+            <dl>
+                <dt>美丽说微信服务号</dt>
+                <dd>
+                    <img src="img/qrcode-new.jpg">
+                </dd>
+            </dl>
+            <dl class="last">
+                <dt>美丽说客户端下载</dt>
+                <dd>
+                    <a href="#"></a>
+                </dd>
+            </dl>
+        </div>
+        <div class="footer_bottom">
+            <div class="friendlink"><span class="link">友情链接：</span>
+                <ul class="link-slide" id="link-slide">
+                    <li>
+                        <a href="http://www.letao.com" target="_blank">乐淘网</a>
+                        <a href="http://quan.163.com" target="_blank">优惠券</a>
+                        <a href="http://www.appchina.com" target="_blank">应用汇</a>
+                        <a href="http://www.s.cn/" target="_blank">名鞋库</a>
+                        <a href="http://www.meilishuo.com/huodong/meizhuang" target="_blank">爱美赏</a>
+                        <a href="http://china.makepolo.com/" target="_blank">马可波罗</a>
+                        <a href="http://www.uzai.com" target="_blank">悠哉旅游网</a>
+                        <a href="http://lady.poco.cn/ " target="_blank">POCO女性</a>
+                        <a href="http://www.tianqi.com" target="_blank">天气预报</a>
+                        <a href="http://www.leho.com/" target="_blank">爱乐活</a>
+                        <a href="http://www.miyabaobei.com/" target="_blank">蜜芽宝贝</a>
+                        <a href="http://www.qufenqi.com/ " target="_blank">趣分期大学生分期购物</a>
+                    </li>
+                    <li>
+                        <a href="http://lady.qq.com/" target="_blank">腾讯女性</a>
+                        <a href="http://www.liebiao.com/" target="_blank">列表网 </a>
+                        <a href="http://www.pclady.com.cn/" target="_blank">太平洋女性网</a>
+                        <a href="http://www.duobaohui.com" target="_blank">多宝汇</a>
+                        <a href="http://www.7y7.com/" target="_blank">七丽女性网</a>
+                        <a href="http://www.kuwo.cn" target="_blank">酷我音乐</a>
+                        <a href="http://www.ladymax.cn" target="_blank">LADYMAX时尚网 </a>
+                        <a href="http://www.bao-hulu.com" target="_blank">保葫芦</a>
+                        <a href="http://www.china-ef.com/" target="_blank">中国品牌服装网</a>
+                        <a href="http://www.topit.me/" target="_blank">优美网</a>
+                        <a href="http://www.junzimen.com/" target="_blank">男士时尚 </a>
+                        <a href="http://www.haxiu.com " target="_blank">哈秀时尚网</a>
+                    </li>
+                    <li>
+                        <a href="http://www.yue365.com/" target="_blank">365音乐网</a>
+                        <a href="http://www.wed114.cn" target="_blank">婚纱摄影</a>
+                        <a href="http://www.kela.cn/" target="_blank">珂兰钻石</a>
+                        <a href="http://info.china.alibaba.com/" target="_blank">商业资讯</a>
+                        <a href="http://baike.china.alibaba.com/" target="_blank">阿里巴巴生意经</a>
+                        <a href="http://www.jiaju.com/" target="_blank">家居就</a>
+                        <a href="http://www.meilele.com/" target="_blank">家具网</a>
+                        <a href="http://www.ebrun.com/" target="_blank">亿邦动力</a>
+                        <a href="http://www.aibang.com/" target="_blank">爱帮网</a>
+                        <a href="http://club.china.alibaba.com/" target="_blank">商人论坛</a>
+                        <a href="http://www.51hejia.com/" target="_blank">和家网</a>
+                        <a href="http://www.zhubajie.com/" target="_blank">猪八戒网</a></li>
+                </ul>
+                <a class="more" href="http://www.meilishuo.com/aboutus/links" target="_blank">更多&gt;&gt;</a></div>
+        </div>
+
+        <div class="record">
+            Copyright ©2016 Meilishuo.com &nbsp;
+            <a href="#" target="_blank">电信与信息服务业务经营许可证100798号</a>&nbsp;
+            <a href="#" target="_blank">经营性网站备案信息</a>&nbsp; 京ICP备11031139号&nbsp; 京公网安备110108006045&nbsp;<br>
+            客服电话：4000-800-577&nbsp; 文明办网文明上网举报电话：010-82615762 &nbsp;
+            <a href="#" target="_blank">违法不良信息举报中心</a>&nbsp;
+            <a href="#" target="_blank">我最喜爱的人民警察评选&gt;&gt;</a>
+            <a href="#" target="_blank">反诈骗信息</a></div>
+    </div>
+</div>
+<!--公共的底部结束-->
+
+
+<!--公共的侧导航-->
+<div class="global-sidebar" id="global-sidebar">
+<div class="fixed_div">
+    <div class="cart-im-panel">
+        <div class="cart-im-box">
+        <a href="#" class="side-button">
+            <i></i>
+            <em></em>
+            <span>购物车</span>
+        </a>
+        <a href="#" class="side-button log-send">
+            <i></i>
+            <em></em>
+            <span>购物车</span>
+        </a>
+    </div>
+    </div>
+    <div class="side-other show-other slide-out">
+        <div class="empty-block-before"></div>
+        <a id="side-coupon" class="side-button2 log-send2" target="_blank" href="#">
+            <em class="red-coupon"></em> <em class="white-coupon"></em>
+            <div class="tip"> 我的优惠券 <em class="black-triangle"></em></div>
+        </a>
+        <a id="side-like" class="side-button2 log-send2" target="_blank" href="#">
+            <em class="red-like"></em> <em class="white-like"></em>
+            <div class="tip"> 喜欢的商品 <em class="black-triangle"></em></div>
+        </a>
+        <a id="side-feedback" class="side-button2 log-send2" target="_blank" href="#">
+            <em class="red-feedback"></em> <em class="white-feedback"></em>
+            <div class="tip"> 调查问卷 <em class="black-triangle"></em></div>
+        </a>
+        <div class="empty-block-after"></div>
+    </div>
+
+   <div class="side-go2top-panel" id="goLink"  style="display: none;">
+    <div id="go2top">
+        <em class="red-up-arrow"></em>
+        <div>返回顶部</div>
+    </div>
+</div>
+</div>
+</div>
+
+<script type="text/javascript" src="js/utils.js"></script>
+<script type="text/javascript" src="js/tween.js"></script>
+<script type="text/javascript" src="js/tab.js"></script>
+<script type="text/javascript" src="js/banner.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+</body>
 </html>
